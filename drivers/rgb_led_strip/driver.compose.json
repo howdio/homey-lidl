@@ -1,0 +1,64 @@
+{
+  "id": "rgb_led_strip",
+  "name": {
+    "en": "RGB LED Strip"
+  },
+  "class": "light",
+  "capabilities": [
+    "onoff",
+    "dim",
+    "light_hue",
+    "light_saturation"
+  ],
+  "capabilitiesOptions": {
+    "onoff": {
+      "setOnDim": false
+    },
+    "dim": {
+      "opts": {
+        "duration": true
+      }
+    },
+    "light_hue": {
+      "opts": {
+        "duration": true
+      }
+    },
+    "light_saturation": {
+      "opts": {
+        "duration": true
+      }
+    }
+  },
+  "energy": {
+    "approximation": {
+      "usageOn": 0,
+      "usageOff": 0
+    }
+  },
+  "zigbee": {
+    "manufacturerName": [
+      "_TZ3000_riwp3k79"
+    ],
+    "productId": [
+      "TS0505A"
+    ],
+    "endpoints": {
+      "1": {
+        "clusters": [
+          0,
+          4,
+          6,
+          8,
+          768
+        ]
+      }
+    },
+    "learnmode": {
+      "image": "{{driverAssetsPath}}/icon.svg",
+      "instruction": {
+        "en": "Power on to enter pairing mode."
+      }
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "id": "com.howdio.lidl",
+  "version": "0.1.0",
+  "compatibility": ">=5.0.0",
+  "sdk": 3,
+  "name": {
+    "en": "Lidl"
+  },
+  "description": {
+    "en": "Adds support for Lidl smart home devices."
+  },
+  "category": [
+    "lights"
+  ],
+  "permissions": [ "homey:wireless:zigbee" ],
+  "images": {
+    "large": "/assets/images/large.png",
+    "small": "/assets/images/small.png"
+  },
+  "author": {
+    "name": "Vincent Lesierse",
+    "email": "vincent@lesierse.com"
+  }
+}
